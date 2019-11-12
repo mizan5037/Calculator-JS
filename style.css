@@ -1,0 +1,37 @@
+body{
+    
+    background-image: url("cal.jpeg");
+    
+      /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+div.cal{
+    margin: 100px auto;
+    height: 400px;
+    width: 300px;
+    background-color: #01344C;
+}
+div.result{
+    width:300px;
+    height:60px;
+    background: white;
+}
+.table{
+    padding-top: 10px;
+    background-color: gray;
+    height: 340px;
+    width: 300px;
+}
+tr{
+   background-color: green;
+   
+}
+td>button{
+    width: 70px;
+    height: 80px;
+}
+button:hover{
+    background-color: lightslategray;
+}
